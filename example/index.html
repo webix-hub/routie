@@ -8,6 +8,7 @@
     <a href="#">Root</a>
     <a href="#test1">Show popup 1</a>
     <a href="#test2">Show popup 2</a>
+    <a href="#test3">Blocked route</a>
 
     <script src="../lib/routie.js"></script>
     <script>
@@ -21,6 +22,9 @@
         },
         'test2': function() {
           alert('popup 2 alert');
+        },
+        'test3': function() {
+          return false;
         }
       });
     </script>

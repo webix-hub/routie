@@ -1,19 +1,24 @@
 {
-  "name": "routie",
-  "version": "0.0.0",
-  "private": true,
-  "main": "dist/routie.js",
+  "name": "webix-routie",
+  "description" : "A tiny hash router",
+  "version": "0.3.3",
+  "main": "lib/routie.js",
+  "keywords": [
+    "routing",
+    "hash",
+    "routing",
+    "router",
+    "webix"
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/webix-hub/routie"
+  },
+  "author":{
+    "name" : "Greg Allen",
+    "url" : "http://projects.jga.me/routie/"
+  },
+  "license":"MIT",
   "devDependencies": {
-    "assert": "~1.3.0",
-    "mocha": "~1.9.0",
-    "grunt": "~0.4.1",
-    "grunt-reloadr": "~0.1.2",
-    "grunt-mocha": "~0.3.0",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-uglify": "~0.2.0",
-    "grunt-contrib-jshint": "~0.4.3",
-    "grunt-contrib-connect": "~0.3.0",
-    "grunt-contrib-watch": "~0.3.1",
-    "grunt-plato": "~0.2.0"
   }
 }

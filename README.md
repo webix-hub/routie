@@ -2,11 +2,17 @@
 
 Routie is a javascript hash routing library.  It is designed for scenarios when push state is not an option (IE8 support, static/Github pages, Phonegap, simple sites, etc). It is very tiny (800 bytes gzipped), and should be able to handle all your routing needs.
 
+## Difference from the original version
+
+Original version - http://projects.jga.me/routie
+
+Fork adds ability to block hash changes, just return a false from the related controller
+
 ##Download
 
-- [Development](https://raw.github.com/jgallen23/routie/master/dist/routie.js)
-- [Production](https://raw.github.com/jgallen23/routie/master/dist/routie.min.js)
-- [Source](https://github.com/jgallen23/routie)
+```
+npm i webix-routie
+```
 
 ##Basic Usage
 
@@ -94,8 +100,3 @@ None
 ##Supports
 
 Any modern browser and IE8+
-
-##Tests
-
-Run `make install`, then `make test`, then go to http://localhost:8000/test
-
