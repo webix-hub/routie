@@ -1,6 +1,6 @@
 {
   "name": "webix-routie",
-  "description" : "A tiny hash router",
+  "description": "A tiny hash router",
   "version": "0.3.3",
   "main": "lib/routie.js",
   "keywords": [
@@ -10,15 +10,22 @@
     "router",
     "webix"
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/webix-hub/routie"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webix-hub/routie"
   },
-  "author":{
-    "name" : "Greg Allen",
-    "url" : "http://projects.jga.me/routie/"
+  "scripts":{
+  	"test" : "mocha test/"
   },
-  "license":"MIT",
+  "author": {
+    "name": "Greg Allen",
+    "url": "http://projects.jga.me/routie/"
+  },
+  "license": "MIT",
   "devDependencies": {
+    "chai": "^3.5.0",
+    "jsdom": "^9.6.0",
+    "mocha": "^3.1.0",
+    "mocha-jsdom": "^1.1.0"
   }
 }
