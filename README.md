@@ -1,5 +1,8 @@
 #Routie
 
+[![npm version](https://badge.fury.io/js/webix-routie.svg)](https://badge.fury.io/js/webix-routie)
+
+
 Routie is a javascript hash routing library.  It is designed for scenarios when push state is not an option (IE8 support, static/Github pages, Phonegap, simple sites, etc). It is very tiny (800 bytes gzipped), and should be able to handle all your routing needs.
 
 ## Difference from the original version
