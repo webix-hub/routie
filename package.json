@@ -1,7 +1,7 @@
 {
   "name": "webix-routie",
   "description": "A tiny hash router",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "main": "lib/routie.js",
   "keywords": [
     "routing",
